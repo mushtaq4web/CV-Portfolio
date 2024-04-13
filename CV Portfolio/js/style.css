@@ -1,0 +1,110 @@
+
+
+.w3-bar-item {
+  padding: 8px 16px;
+}
+
+.w3-button {
+  margin: 4px;
+}
+
+/* Header Styles */
+.home {
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+.image-section {
+  height: 100vh;
+  -moz-text-align: center; /*works on Firefox */
+  -webkit-text-align: center; /*works on Safari and Google Chrome*/
+  text-align: center;
+  background-color: #262626;
+  -moz-padding: 20px; /*works on Firefox */
+  -webkit-padding: 20px; /*works on Safari and Google Chrome*/
+  padding: 20px;
+  position:sticky ;
+
+}
+
+.image-section img {
+  max-width: 60%;
+  max-height: 60%;
+  margin-top: 50px !important;
+  object-fit: cover;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.links a {
+  flex: 0 0 10%;
+}
+
+.icon-link {
+  text-decoration: none;
+  font-size: 48px auto;
+  padding: 26px;
+}
+
+/* About Section Styles */
+#about {
+  padding: 20px;
+}
+
+/* Resume Section Styles */
+#resume {
+  padding: 20px;
+}
+
+/* Contact Section Styles */
+#contact {
+  padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Image Section Styles */
+.image-section {
+  text-align: center;
+}
+
+.image-section img {
+  width: 150px;
+  height: 150px;
+  position: sticky;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-link {
+  margin: 0 10px;
+}
+
+/* Content Container Styles */
+.content-container {
+  padding: 20px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .w3-container {
+    padding: 0;
+  }
+
+  .w3-hide-small {
+    display: none !important;
+  }
+}
